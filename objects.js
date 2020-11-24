@@ -1,15 +1,13 @@
-var playlist() {
+var playlist = {
   BTS: 'Fake Love',
   Winner: 'Really Really',
   Blackpink: 'Kill This Love'
 }
 
 function updatePlaylist(playlist, 'MonstaX', 'Trespass') {
-  playlist['MonstaX']=Trespass
-  return playlist
+  return playlist['MonstaX']=Trespass
 }
 
 function removeFromPlaylist(playlist, Blackpink) {
-  delete playlist.Blackpink
-  return playlist
+  return delete playlist.Blackpink
 }
