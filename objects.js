@@ -10,6 +10,6 @@ function updatePlaylist(playlist, MonstaX, Trespass) {
 }
 
 function removeFromPlaylist(playlist, Blackpink) {
-  delete playlist[Blackpink]
+  delete playlist['Blackpink']
   return playlist
 }
