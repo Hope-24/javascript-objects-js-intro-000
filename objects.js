@@ -5,9 +5,11 @@ var playlist = {
 }
 
 function updatePlaylist(playlist, 'MonstaX', 'Trespass') {
-  return playlist['MonstaX']=Trespass
+  playlist['MonstaX']=Trespass
+  return playlist
 }
 
 function removeFromPlaylist(playlist, Blackpink) {
-  return delete playlist.Blackpink
+  delete playlist[Blackpink]
+  return playlist
 }
