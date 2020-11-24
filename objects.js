@@ -1,12 +1,15 @@
-var playlist = {
-  BTS: 'Boy In Love',
-  X: 'Moonlight'
-};
-
-function updatePlaylist(playlist, blackpink, whisle) {
-  return playlist[blackpink] = whisle;
+var playlist() {
+  BTS: 'Fake Love',
+  Winner: 'Really Really',
+  Blackpink: 'Kill This Love'
 }
 
-function removeFromPlaylist(playlist, BTS) {
-  return delete playlist[BTS];
+function updatePlaylist(playlist, 'MonstaX', 'Trespass') {
+  playlist['MonstaX']=Trespass 
+  return playlist
+}
+
+function removeFromPlaylist(playlist, Blackpink) {
+  delete playlist.Blackpink
+  return playlist
 }
