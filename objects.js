@@ -5,7 +5,7 @@ var playlist() {
 }
 
 function updatePlaylist(playlist, 'MonstaX', 'Trespass') {
-  playlist['MonstaX']=Trespass 
+  playlist['MonstaX']=Trespass
   return playlist
 }
 
