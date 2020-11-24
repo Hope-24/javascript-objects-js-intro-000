@@ -1,15 +1,13 @@
 var playlist = {
-  BTS: 'Fake Love',
-  Winner: 'Really Really',
-  Blackpink: 'Kill This Love'
+  artistTitle = 'songTitle'
 }
 
-function updatePlaylist(playlist, artistName, songName) {
-  playlist['artistName']=songName
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist['artistName']=songTitle;
   return playlist
 }
 
-function removeFromPlaylist(playlist, Blackpink) {
-  delete playlist['Blackpink']
+function removeFromPlaylist(playlist, artistTitle) {
+  delete playlist[artistTitle]
   return playlist
 }
