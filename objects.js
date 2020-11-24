@@ -4,8 +4,8 @@ var playlist = {
   Blackpink: 'Kill This Love'
 }
 
-function updatePlaylist(playlist, MonstaX, Trespass) {
-  playlist['MonstaX']=Trespass
+function updatePlaylist(playlist, artistName, songName) {
+  playlist['artistName']=songName
   return playlist
 }
 
